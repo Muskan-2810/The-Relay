@@ -1,0 +1,16 @@
+question_id,question,expected_source,top1_source,top5_sources,top1_source_match,top5_source_hit
+1,How does self-attention work in Transformers?,attention_v7,attention_v7,attention_v7;attention_v7;attention_v7;attention_v7;attention_v7,True,True
+2,Why does the Transformer use multiple attention heads?,attention_v7,attention_v7,attention_v7;attention_v7;attention_v7;attention_v7;moshi_v1,True,True
+3,What is the purpose of positional encoding in the Transformer?,attention_v7,attention_v7,attention_v7;attention_v7;moshi_v1;attention_v7;moshi_v1,True,True
+4,How does the Transformer encoder differ from the decoder?,attention_v7,attention_v7,attention_v7;attention_v7;dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2,True,True
+5,How does self-attention compare with recurrent layers in computational complexity?,attention_v7,attention_v7,attention_v7;attention_v7;attention_v7;attention_v7;attention_v7,True,True
+6,What is Moshi and what problem is it designed to solve?,moshi_v1,dynamic_chunking_v2,dynamic_chunking_v2;moshi_v1;moshi_v1;moshi_v1;moshi_v1,False,True
+7,What is the role of the Mimi audio codec in Moshi?,moshi_v1,moshi_v1,moshi_v1;moshi_v1;moshi_v1;moshi_v1;moshi_v1,True,True
+8,How does Moshi support real-time spoken conversation?,moshi_v1,moshi_v1,moshi_v1;moshi_v1;moshi_v1;moshi_v1;moshi_v1,True,True
+9,How are text and audio streams represented in Moshi?,moshi_v1,moshi_v1,moshi_v1;moshi_v1;moshi_v1;moshi_v1;moshi_v1,True,True
+10,What is the purpose of the Helium language model in the Moshi architecture?,moshi_v1,moshi_v1,moshi_v1;moshi_v1;moshi_v1;moshi_v1;moshi_v1,True,True
+11,What is dynamic chunking in hierarchical sequence modeling?,dynamic_chunking_v2,dynamic_chunking_v2,dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2,True,True
+12,Why can fixed-size chunking be a limitation for sequence modeling?,dynamic_chunking_v2,dynamic_chunking_v2,dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2,True,True
+13,How does dynamic chunking adapt chunk boundaries to input sequences?,dynamic_chunking_v2,dynamic_chunking_v2,dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2,True,True
+14,What are the benefits of hierarchical sequence modeling?,dynamic_chunking_v2,dynamic_chunking_v2,dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2;dynamic_chunking_v2,True,True
+15,How is dynamic chunking evaluated against alternative sequence modeling approaches?,dynamic_chunking_v2,dynamic_chunking_v2,dynamic_chunking_v2;dynamic_chunking_v2;attention_v7;dynamic_chunking_v2;dynamic_chunking_v2,True,True

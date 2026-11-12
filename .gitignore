@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+papers/*.pdf
+data/extracted_papers/
+data/chunks/
+app/*backup.py
+app/main_before_citation_validation.py

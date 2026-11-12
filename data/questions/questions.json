@@ -1,0 +1,93 @@
+
+[
+  {
+    "id": 1,
+    "question": "How does self-attention work in Transformers?",
+    "expected_source": "attention_v7",
+    "expected_concepts": ["queries", "keys", "values", "attention weights"]
+  },
+  {
+    "id": 2,
+    "question": "Why does the Transformer use multiple attention heads?",
+    "expected_source": "attention_v7",
+    "expected_concepts": ["multi-head attention", "parallel attention", "representation subspaces"]
+  },
+  {
+    "id": 3,
+    "question": "What is the purpose of positional encoding in the Transformer?",
+    "expected_source": "attention_v7",
+    "expected_concepts": ["positional encoding", "sequence order", "position information"]
+  },
+  {
+    "id": 4,
+    "question": "How does the Transformer encoder differ from the decoder?",
+    "expected_source": "attention_v7",
+    "expected_concepts": ["encoder", "decoder", "self-attention", "cross-attention"]
+  },
+  {
+    "id": 5,
+    "question": "How does self-attention compare with recurrent layers in computational complexity?",
+    "expected_source": "attention_v7",
+    "expected_concepts": ["computational complexity", "sequence length", "parallelization"]
+  },
+  {
+    "id": 6,
+    "question": "What is Moshi and what problem is it designed to solve?",
+    "expected_source": "moshi_v1",
+    "expected_concepts": ["speech-text foundation model", "real-time dialogue", "spoken interaction"]
+  },
+  {
+    "id": 7,
+    "question": "What is the role of the Mimi audio codec in Moshi?",
+    "expected_source": "moshi_v1",
+    "expected_concepts": ["Mimi", "audio codec", "audio tokens"]
+  },
+  {
+    "id": 8,
+    "question": "How does Moshi support real-time spoken conversation?",
+    "expected_source": "moshi_v1",
+    "expected_concepts": ["real-time interaction", "streaming", "audio generation"]
+  },
+  {
+    "id": 9,
+    "question": "How are text and audio streams represented in Moshi?",
+    "expected_source": "moshi_v1",
+    "expected_concepts": ["text stream", "audio stream", "temporal alignment"]
+  },
+  {
+    "id": 10,
+    "question": "What is the purpose of the Helium language model in the Moshi architecture?",
+    "expected_source": "moshi_v1",
+    "expected_concepts": ["Helium", "language model", "Moshi architecture"]
+  },
+  {
+    "id": 11,
+    "question": "What is dynamic chunking in hierarchical sequence modeling?",
+    "expected_source": "dynamic_chunking_v2",
+    "expected_concepts": ["dynamic chunking", "hierarchical sequence modeling", "variable chunks"]
+  },
+  {
+    "id": 12,
+    "question": "Why can fixed-size chunking be a limitation for sequence modeling?",
+    "expected_source": "dynamic_chunking_v2",
+    "expected_concepts": ["fixed-size chunks", "sequence boundaries", "adaptability"]
+  },
+  {
+    "id": 13,
+    "question": "How does dynamic chunking adapt chunk boundaries to input sequences?",
+    "expected_source": "dynamic_chunking_v2",
+    "expected_concepts": ["adaptive boundaries", "input sequence", "chunk selection"]
+  },
+  {
+    "id": 14,
+    "question": "What are the benefits of hierarchical sequence modeling?",
+    "expected_source": "dynamic_chunking_v2",
+    "expected_concepts": ["hierarchical representations", "long sequences", "sequence structure"]
+  },
+  {
+    "id": 15,
+    "question": "How is dynamic chunking evaluated against alternative sequence modeling approaches?",
+    "expected_source": "dynamic_chunking_v2",
+    "expected_concepts": ["experiments", "baselines", "evaluation"]
+  }
+]

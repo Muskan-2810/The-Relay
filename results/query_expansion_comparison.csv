@@ -1,0 +1,31 @@
+﻿question_id,query_type,query,top1_source_match,top5_source_match,concept_coverage,matched_concepts,expected_concepts,latency_ms,approx_retrieved_tokens
+1,original,How does self-attention work in Transformers?,True,True,0.8,4,5,0.956,1500
+1,expanded,How does self-attention work in Transformers?,True,True,0.8,4,5,0.625,1500
+2,original,Why does the Transformer use multiple attention heads?,False,True,1.0,6,6,0.802,1324
+2,expanded,Why does the Transformer use multiple attention heads?,False,True,1.0,6,6,0.89,1324
+3,original,What is the purpose of positional encoding in the Transformer?,True,True,1.0,6,6,0.612,1500
+3,expanded,What is the purpose of positional encoding in the Transformer?,True,True,1.0,6,6,0.545,1500
+4,original,How does the Transformer encoder differ from the decoder?,True,True,0.8,4,5,0.904,1500
+4,expanded,How does the Transformer encoder differ from the decoder?,True,True,0.8,4,5,0.573,1500
+5,original,How does self-attention compare with recurrent layers in computational complexity?,True,True,0.8,4,5,0.961,1500
+5,expanded,How does self-attention compare with recurrent layers in computational complexity?,True,True,0.8,4,5,1.302,1500
+6,original,What is Moshi and what problem is it designed to solve?,False,True,0.8889,8,9,0.675,1500
+6,expanded,What is Moshi and what problem is it designed to solve? speech text foundation model full duplex spoken dialogue latency speech recognition text to speech interruptions overlapping speech textual information bottleneck turn based modeling,True,True,1.0,9,9,2.942,1500
+7,original,What is the role of the Mimi audio codec in Moshi?,True,True,1.0,4,4,0.718,1500
+7,expanded,What is the role of the Mimi audio codec in Moshi?,True,True,1.0,4,4,0.641,1500
+8,original,How does Moshi support real-time spoken conversation?,True,True,0.8333,5,6,0.778,1500
+8,expanded,How does Moshi support real-time spoken conversation?,True,True,0.8333,5,6,0.737,1500
+9,original,How are text and audio streams represented in Moshi?,True,True,0.8,4,5,0.645,1500
+9,expanded,How are text and audio streams represented in Moshi?,True,True,0.8,4,5,0.644,1500
+10,original,What is the purpose of the Helium language model in the Moshi architecture?,True,True,1.0,5,5,0.847,1500
+10,expanded,What is the purpose of the Helium language model in the Moshi architecture?,True,True,1.0,5,5,0.828,1500
+11,original,What is dynamic chunking in hierarchical sequence modeling?,True,True,0.8571,6,7,0.739,1500
+11,expanded,What is dynamic chunking in hierarchical sequence modeling?,True,True,0.8571,6,7,0.685,1500
+12,original,Why can fixed-size chunking be a limitation for sequence modeling?,True,True,0.8333,5,6,0.902,1500
+12,expanded,Why can fixed-size chunking be a limitation for sequence modeling?,True,True,0.8333,5,6,0.863,1500
+13,original,How does dynamic chunking adapt chunk boundaries to input sequences?,True,True,0.6667,4,6,0.873,1500
+13,expanded,How does dynamic chunking adapt chunk boundaries to input sequences?,True,True,0.6667,4,6,0.834,1500
+14,original,What are the benefits of hierarchical sequence modeling?,True,True,0.8333,5,6,0.55,1500
+14,expanded,What are the benefits of hierarchical sequence modeling?,True,True,0.8333,5,6,0.516,1500
+15,original,How is dynamic chunking evaluated against alternative sequence modeling approaches?,True,True,0.6667,2,3,0.873,1500
+15,expanded,How is dynamic chunking evaluated against alternative sequence modeling approaches?,True,True,0.6667,2,3,0.869,1500

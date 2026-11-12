@@ -1,0 +1,5 @@
+﻿request_id,scenario,source,start_time,first_token_ms,total_ms,status,retries,tokens_in,tokens_out,retrieval_setting,answer_grade
+real-001,real_smoke_non_streaming,real,2026-11-11T16:48:11.104105+00:00,,970.44,error,0,80,120,none,
+real-002,real_smoke_non_streaming,real,2026-11-11T16:49:51.809481+00:00,,1066.29,ok,0,96,165,none,
+real-003,real_smoke_streaming,real,2026-11-11T16:51:41.492220+00:00,1223.92,1357.78,ok,0,,,none,
+real-004,real_smoke_non_streaming,real,2026-11-11T17:28:14.639650+00:00,,684.3,ok,0,96,165,none,
