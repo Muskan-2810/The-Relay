@@ -2,7 +2,7 @@
 
 
 
-***\*\*An AI-powered Research Paper Question Answering and Retrieval Evaluation System\*\****
+An AI-intregrated Research Paper Question Answering and Retrieval Evaluation System
 
 
 
